@@ -9,7 +9,7 @@ if (isLoading || isError) {
 }
 
   return (
-    <div className="bg-white h-screen pt-10 px-10 flex flex-col gap-20">
+    <div className="flex flex-col gap-20 px-10 pt-10 pb-20 bg-white">
         <h1 className="text-4xl font-Yekan-bold">لیست تخت ها مجتمع بیمارستانی امام خمینی</h1>
         {data.map(hospital=> <Hospital key={hospital.id} data={hospital}/>)}
     </div>

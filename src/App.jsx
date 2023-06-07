@@ -4,7 +4,7 @@ import {HomePage} from "./pages/index";
 function App() {
 
   return (
-    <div className="bg-slate-700 py-40 px-16 w-full h-screen">
+    <div className="w-full py-40 px-44 bg-telegram-bg">
       <HomePage/>
     </div>
   )

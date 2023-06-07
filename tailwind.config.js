@@ -20,11 +20,17 @@ export default {
         "primary-dark" : "#424242",
         "primary-light" : "#4C4C4C",
         "primary-lighter": "#858588",
+        "primary-lighter-2": "#636366",
+        "secondary": "#36459B",
         "anti-flash-light": "#F1F4F5",
         "border-color": "#EDEDED",
         "platinum": "#E4E4E4",
         "light-blue": "#A3D0EA",
         "sunset": "#FFC684",
+      },
+
+      backgroundImage: {
+        'telegram-bg': "url('./src/assets/imgs/background.jpg')",
       }
     },
   },
