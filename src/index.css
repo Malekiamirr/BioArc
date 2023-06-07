@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Yekan-thin";
+    src: local("Yekan"),
+      url("./assets/fonts/iranyekanwebthin.woff") format("woff");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Yekan-regular";
+    src: local("Yekan"),
+      url("./assets/fonts/iranyekanwebregular.woff") format("woff");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Yekan-medium";
+    src: local("Yekan"),
+      url("./assets/fonts/iranyekanwebmedium.woff") format("woff");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Yekan-light";
+    src: local("Yekan"),
+      url("./assets/fonts/iranyekanweblight.woff") format("woff");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Yekan-extraBold";
+    src: local("Yekan"),
+      url("./assets/fonts/iranyekanwebextrabold.woff") format("woff");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Yekan-bold";
+    src: local("Yekan"),
+      url("./assets/fonts/iranyekanwebbold.woff") format("woff");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Yekan-extraBlack";
+    src: local("Yekan"),
+      url("./assets/fonts/iranyekanwebextrablack.woff") format("woff");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Yekan-black";
+    src: local("Yekan"),
+      url("./assets/fonts/iranyekanwebblack.woff") format("woff");
+    font-display: swap;
+  }
+
+  body {
+    @apply font-Yekan-regular text-primary-dark;
+  }
+}

@@ -1,9 +1,10 @@
-import {HomePage} from "./pages/index"
+import {HomePage} from "./pages/index";
+// import { useGetHospitalsDetailsQuery } from "./api/apiSlice";
 
 function App() {
 
   return (
-    <div>
+    <div className="bg-slate-700 py-40 px-16 w-full h-screen">
       <HomePage/>
     </div>
   )
