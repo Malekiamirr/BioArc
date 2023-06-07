@@ -1,0 +1,459 @@
+{
+    "hospitalsDetails" : [
+        {
+            "id": 1,
+            "hospital": "بیمارستان امام",
+            "buildings" : 2,
+            "allRooms" : 18,
+            "allBeds" : 110,
+            "reservable": 32,
+            "unreservable": 12,
+            "full": 58,
+            "hospitalBuildingsList": [
+                {
+                    "id": 1,
+                    "building": "ساختمان امید",
+                    "subName": "بیمارستان امام",
+                    "floors": ["طبقه اول بخش روماتولوژی", "طبقه اول بخش اورتوپدی", "طبقه دوم بخش روماتولوژی", "طبقه دوم بخش کودکان", "طبقه دوم بخش اورتوپدی"],
+                    "details": {
+                        "allRooms" : [
+                            {
+                                "id": 1,
+                                "roomName": "R101",
+                                "beds": [
+                                    {
+                                        "id":1,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "blue",
+                                        "select": true
+
+                                    },
+                                    {
+                                        "id":2,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "blue",
+                                        "select": true
+
+                                    },
+                                    {
+                                        "id":3,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "blue",
+                                        "select": true
+
+                                    },
+                                    {
+                                        "id":4,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "orange",
+                                        "select": false
+
+                                    },
+                                    {
+                                        "id":5,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": false,
+                                        "bedColor": "gray",
+                                        "select": false
+
+                                    },
+                                    {
+                                        "id":6,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": false,
+                                        "bedColor": "gray",
+                                        "select": false
+
+                                    }
+                                ] 
+                            },
+
+                            {
+                                "id": 2,
+                                "roomName": "R102",
+                                "beds": [
+                                    {
+                                        "id":1,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "blue",
+                                        "select": true
+
+                                    },
+                                    {
+                                        "id":2,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "blue",
+                                        "select": true
+
+                                    },
+                                    {
+                                        "id":3,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "orange",
+                                        "select": false
+
+                                    },
+                                    {
+                                        "id":4,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": false,
+                                        "bedColor": "gray",
+                                        "select": false
+
+                                    },
+                                    {
+                                        "id":5,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": false,
+                                        "bedColor": "gray",
+                                        "select": false
+
+                                    }
+                                ] 
+                            }
+                        ],
+                        "allBeds" : 11,
+                        "reservable": 5,
+                        "unreservable": 2
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "building": "ساختمان نیما",
+                    "subName": "بیمارستان شریعتی",
+                    "floors": ["طبقه اول بخش روماتولوژی", "طبقه اول بخش اورتوپدی", "طبقه دوم بخش کودکان", "طبقه دوم بخش اورتوپدی"],
+                    "details": {
+                        "allRooms" : [
+                            {
+                                "id": 1,
+                                "roomName": "R101",
+                                "beds": [
+                                    {
+                                        "id":1,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "blue",
+                                        "select": true
+
+                                    },
+                                    {
+                                        "id":2,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "blue",
+                                        "select": true
+
+                                    },
+                                    {
+                                        "id":3,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "blue",
+                                        "select": true
+
+                                    },
+                                    {
+                                        "id":4,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "blue",
+                                        "select": true
+
+                                    },
+                                    {
+                                        "id":5,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": false,
+                                        "bedColor": "gray",
+                                        "select": false
+
+                                    },
+                                    {
+                                        "id":6,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": false,
+                                        "bedColor": "gray",
+                                        "select": false
+
+                                    }
+                                ] 
+                            },
+
+                            {
+                                "id": 2,
+                                "roomName": "R102",
+                                "beds": [
+                                    {
+                                        "id":1,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "blue",
+                                        "select": true
+
+                                    },
+                                    {
+                                        "id":2,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "blue",
+                                        "select": true
+
+                                    },
+                                    {
+                                        "id":3,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "orange",
+                                        "select": false
+
+                                    },
+                                    {
+                                        "id":4,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "orange",
+                                        "select": false
+
+                                    },
+                                    {
+                                        "id":5,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": false,
+                                        "bedColor": "gray",
+                                        "select": false
+
+                                    }
+                                ] 
+                            },
+
+                            {
+                                "id": 3,
+                                "roomName": "R103",
+                                "beds": [
+                                    {
+                                        "id":1,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": false,
+                                        "bedColor": "gray",
+                                        "select": false
+
+                                    },
+                                    {
+                                        "id":2,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": false,
+                                        "bedColor": "gray",
+                                        "select": false
+
+                                    },
+                                    {
+                                        "id":3,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": false,
+                                        "bedColor": "gray",
+                                        "select": false
+
+                                    },
+                                    {
+                                        "id":4,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": false,
+                                        "bedColor": "gray",
+                                        "select": false
+
+                                    },
+                                    {
+                                        "id":5,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": false,
+                                        "bedColor": "gray",
+                                        "select": false
+
+                                    }
+                                ] 
+                            }
+                        ],
+                        "allBeds" : 16,
+                        "reservable": 6,
+                        "unreservable": 2
+                    }
+                }
+            ]
+
+        },
+
+        {
+            "id": 2,
+            "hospital": "بیمارستان ولیعصر",
+            "buildings" : 2,
+            "allRooms" : 18,
+            "allBeds" : 110,
+            "reservable": 32,
+            "unreservable": 12,
+            "full": 58,
+            "hospitalBuildingsList": [
+                {
+                    "id": 1,
+                    "building": "ساختمان امید",
+                    "subName": "بیمارستان ولیعصر",
+                    "floors": ["طبقه اول بخش روماتولوژی", "طبقه اول بخش اورتوپدی", "طبقه دوم بخش روماتولوژی", "طبقه دوم بخش کودکان", "طبقه دوم بخش اورتوپدی"],
+                    "details": {
+                        "allRooms" : [
+                            {
+                                "id": 1,
+                                "roomName": "R101",
+                                "beds": [
+                                    {
+                                        "id":1,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "blue",
+                                        "select": true
+
+                                    },
+                                    {
+                                        "id":2,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "blue",
+                                        "select": true
+
+                                    },
+                                    {
+                                        "id":3,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "blue",
+                                        "select": true
+
+                                    },
+                                    {
+                                        "id":4,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "orange",
+                                        "select": false
+
+                                    },
+                                    {
+                                        "id":5,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": false,
+                                        "bedColor": "gray",
+                                        "select": false
+
+                                    },
+                                    {
+                                        "id":6,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": false,
+                                        "bedColor": "gray",
+                                        "select": false
+
+                                    }
+                                ] 
+                            },
+
+                            {
+                                "id": 2,
+                                "roomName": "R102",
+                                "beds": [
+                                    {
+                                        "id":1,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "blue",
+                                        "select": true
+
+                                    },
+                                    {
+                                        "id":2,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "blue",
+                                        "select": true
+
+                                    },
+                                    {
+                                        "id":3,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": true,
+                                        "bedColor": "orange",
+                                        "select": false
+
+                                    },
+                                    {
+                                        "id":4,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": false,
+                                        "bedColor": "gray",
+                                        "select": false
+
+                                    },
+                                    {
+                                        "id":5,
+                                        "bedName": "تخت ۱",
+                                        "bedNumber": "A121",
+                                        "available": false,
+                                        "bedColor": "gray",
+                                        "select": false
+
+                                    }
+                                ] 
+                            }
+                        ],
+                        "allBeds" : 11,
+                        "reservable": 5,
+                        "unreservable": 2
+                    }
+                } 
+            ]
+
+        }
+    ]
+}
