@@ -3,7 +3,7 @@ import { FloorsList } from "../../components"
 import {RoomsList} from "../index"
 function Building({buildings}) {
   return (
-    <div className="flex flex-col items-center justify-center gap-40">
+    <div className="flex flex-col items-center justify-center gap-20">
         {buildings.map(building=> (
         <div key={building.id} className="w-full">
             <div className="flex flex-col items-center gap-4">

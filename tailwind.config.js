@@ -21,6 +21,7 @@ export default {
         "primary-light" : "#4C4C4C",
         "primary-lighter": "#858588",
         "primary-lighter-2": "#636366",
+        "primary-lighter-3": "#99999C",
         "secondary": "#36459B",
         "anti-flash-light": "#F1F4F5",
         "border-color": "#EDEDED",
