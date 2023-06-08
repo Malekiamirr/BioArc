@@ -9,7 +9,7 @@ function Rooms({room}) {
             <MdOutlineAddHome className="w-9 h-9 text-secondary"/>
             <p className="text-lg">اتاق {room.roomName}</p>
         </div>
-        <div className="grid grid-cols-6 gap-x-4">
+        <div className="grid sm:grid-cols-2 min-[820px]:grid-cols-3 gap-6 lg:grid-cols-6 lg:gap-x-4">
         {room.beds.map((bed,i)=> <BedCard key={i} bed={bed}/>)}
         </div>
     </div>
