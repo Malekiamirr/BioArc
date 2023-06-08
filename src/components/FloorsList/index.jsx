@@ -34,7 +34,6 @@ function FloorsList({floors}) {
             <div key={floor} className="flex flex-col items-center w-full min-w-full sm:w-1/2 sm:min-w-[50%] md:w-1/3 md:min-w-[33.33%] 2md:w-1/4 2md:min-w-[25%] lg:min-w-[20%] lg:w-1/5 gap-3 pb-4 text-primary-lighter-2 hover:text-secondary group">
               <FaHospitalAlt className="w-11 h-11"/>
               <p className="relative text-base tracking-tight lgr:text-lg font-Yekan-medium">{floor}<span className="absolute inset-x-0 h-1 duration-300 ease-out transform scale-x-0 -bottom-4 rounded-xl transition-noneion-transform bg-secondary group-hover:scale-x-100"></span></p>
-                {console.log(windowWidth === 1280)}
               </div>
           ))}
       </div>
