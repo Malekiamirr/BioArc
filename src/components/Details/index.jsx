@@ -3,7 +3,7 @@ import {FaBed} from "react-icons/fa"
 function Details({details}) {
   return (
     <div className="px-4 py-6 rounded bg-anti-flash-light">
-      <ul className="grid grid-cols-2 text-sm text-primary-lighter gap-x-12 gap-y-4">
+      <ul className="grid grid-cols-2 text-primary-lighter gap-x-12 gap-y-4">
        {details.buildings && <li>تعداد ساختمان ها : {details.buildings} عدد</li>}
        
        <li className="flex items-center gap-2">

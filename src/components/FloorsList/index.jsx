@@ -7,9 +7,10 @@ function FloorsList({floors}) {
     <div className="flex items-center justify-between mt-16 cursor-pointer">
         {slider}
         {floors.map(floor=> (
-            <div key={floor} className="flex flex-col items-center gap-3 pb-3 transition-all border-b-4 border-b-transparent text-primary-lighter-2 hover:text-secondary hover:border-b-4 hover:border-secondary">
+            <div key={floor} className="relative flex flex-col items-center gap-3 pb-4 text-primary-lighter-2 hover:text-secondary group">
+               <span className="absolute inset-x-0 bottom-0 h-1 duration-300 ease-out transform scale-x-0 rounded-xl transition-noneion-transform bg-secondary group-hover:scale-x-100"></span>
                 <FaHospitalAlt className="w-12 h-12"/>
-                <p className="font-Yekan-medium">{floor}</p>
+                <p className="text-lg font-Yekan-medium">{floor}</p>
             </div>
         ))}
         <div className={`${slider ? "" : "hidden"} rotate-180`}>

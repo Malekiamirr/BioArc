@@ -10,9 +10,9 @@ function RoomsList({rooms}) {
   }
   
   return (
-    <div className="py-8 pl-12 pr-8 mt-2 border rounded-lg">
+    <div className="pl-12 pr-8 -mt-[3px] border rounded-lg py-7">
       <div className="flex justify-between">
-        <h3 className="text-xl font-Yekan-bold text-primary-light">لیست ساختمان های طبقه اول بخش روماتولوژی ساختمان امید:</h3>
+        <h3 className="text-2xl font-Yekan-bold text-primary-light">لیست ساختمان های طبقه اول بخش روماتولوژی ساختمان امید:</h3>
         <Details details={details}/>
       </div>
       <div className="mt-12 space-y-24">

@@ -9,8 +9,8 @@ function Building({buildings}) {
             <div className="flex flex-col items-center gap-4">
                 <FaHospital className="w-20 h-20 text-secondary"/>
                 <div className="text-center">
-                    <h5 className="text-xl font-Yekan-bold">{building.building}</h5>
-                    <span className="text-xs text-primary-lighter">{building.subName}</span>
+                    <h5 className="text-3xl font-Yekan-bold">{building.building}</h5>
+                    <span className="text-sm text-primary-lighter">{building.subName}</span>
                 </div>
             </div>
             <FloorsList floors={building.floors}/>

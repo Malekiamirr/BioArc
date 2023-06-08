@@ -4,7 +4,7 @@ import {Button} from "../index";
 function BedCard({bed}) {
   console.log(bed)
     return (
-    <div className="flex flex-col items-center p-6 bg-white rounded-md shadow-lg">
+    <div className="flex flex-col items-center p-6 bg-white rounded-md shadow-lg shadow-platinum">
         <div className="flex items-center gap-6">
         <FaBed className={`w-10 h-10 text-${bed.bedColor}`}/>          
             <p className={`text-lg font-Yekan-medium ${!bed.select ? "text-primary-lighter-3" : ""}`}>{bed.bedName}</p>
