@@ -19,6 +19,7 @@ BioArc is a web application that enables users to view different hospital buildi
 - Tailwindcss
 - RTK Query
 - JSON Server
+- React-icons
 
 ## Getting Started
 
